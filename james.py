@@ -27,7 +27,12 @@ x_pos = SCREENWIDTH/2
 y_pos = SCREENWIDTH/10
 cur_time = pygame.time.get_ticks()
 
+def some_new_func(foo):
+    print(foo)
 
+
+
+some_new_func("constance")
 
 class Food:
     pos: tuple
